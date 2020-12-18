@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link href="boot_css.css" rel="stylesheet" type="text/css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+            .bg{
+                background-color: #fff;
+                .row{
+                    margin-bottom: 5px;
+                    .colour{
+                        color: black;
+                    }
+                }
+              
+            }
+             .footer {
+                    position: fixed;
+                    left: 0;
+                    bottom: 0;
+                    width: 100%;
+                    height: 40px;
+                    background-color: black;
+                    color: white;
+                    text-align: center;
+                }
+                body {
+  background-color: white;
+}
+
+@media screen and (min-width: 400px) {
+  body {
+    background-color: white;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    background-color: white;
+  }
+}
+        </style>
+    </head>
+    <body class="bg">
+        <nav class="navbar navbar-inverse  navbar-fixed-top">
+            <div class="container">      
+            <div class="navbar-header">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          
+                      </button>
+                      <a href="https://www.lifestylestores.com/in/en/" target="_blank" class="navbar-brand">Lifestyle Store</a>
+                  </div>
+                  
+                  <div class="collapse navbar-collapse" id="myNavbar">
+                 <!--     <ul class="nav navbar-nav">
+                          <li><a href="#">Left Link</a></li>
+                      </ul>         -->
+                      <ul class="nav navbar-nav navbar-right">
+                       <!--   <li class="active"><a href="#">Home</a></li>     -->
+                       <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                       <li><a href="signup.html" target="_blank"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>
+                      </ul>
+                  </div>
+        </div>
+                </nav>
+    <center>
+        <div class="container">
+        <div class="page-header"><h2 style="color: black" class="float-left"><br>Welcome to Lifestyle Store<span class="glyphicon glyphicon-shopping-cart"></span></h2>
+        </div>
+            </div>
+    <!--        <div class="container">
+    -->         <div class="row">
+               <div class="col-xs-4 col-xs-offset-4">
+            <div class="panel panel-primary">
+                <div class="panel-heading panel-primary">
+                <h3>Login</h3>
+            </div>
+            <div class="panel-body">
+                 <div class="text-warning"><p>Login to make a purchase</p></div>
+               
+            
+            <form>
+                <div class="form-group">
+                    <div class="float-left">
+                        <label for="mail" >Email or name</label></div>
+                            <input type="text" class="form-control" name="mail">
+                </div>
+                <div class="form-group">
+                                <label for="passwd">Password</label>
+                                <input type="text" class="form-control" name="passwd" placeholder="atleast 6 characters">
+                              </div>    
+                By continuing, you agree to Lifestyle's Conditions of Use and Privacy Notice.<br>   
+                <div class="colour"><a href="index.html" class="btn btn-primary btn-warning">Login</a></div><br>
+                <div class="panel-footer">
+                              Don't have an account?
+                             <a href="signup.html">Sign Up</a>
+                         </div> 
+            </form>
+            </div>
+            </div>
+            </div>
+    <!--        </div>    
+    -->    </div>
+        <div class="footer">
+                        <p> Copyright &copy Lifestyle Store. All Rights Reserved | Contact Us: +91 90000 00000 </p>
+                
+                </div>
+    </body>
+</html>
